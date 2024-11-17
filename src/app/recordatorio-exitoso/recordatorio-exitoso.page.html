@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button  menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-back-button defaultHref="/inicio"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center">Recordatorio exitoso</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class=" ion-text-center ">
+    <!-- Encabezado con fondo verde -->
+    <div class="bg-success text-white py-4 rounded-bottom shadow">
+      <h1 class="display-6 fw-bold">Recordatorio exitoso</h1>
+    </div>
+
+    <div class="container" >
+      <ion-icon name="checkmark-circle-outline" class="text-light pt-4" style="font-size: 200px"></ion-icon>
+    </div>
+   
+    <p class="container mt-4">Listo!! <br>Acabas de ingresar un recordatorio exitosamente</p>
+</ion-content>
+

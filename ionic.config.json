@@ -1,0 +1,7 @@
+{
+  "name": "Dosis_Diarias",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

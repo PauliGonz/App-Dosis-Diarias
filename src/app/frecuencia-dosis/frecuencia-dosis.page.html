@@ -17,7 +17,21 @@
   </div>
 
   <div class="container" >
-    <ion-icon name="sync-outline" class="text-light pt-4" style="font-size: 200px"></ion-icon>
+    <ion-icon name="sync-outline" class="text-light pt-4" style="font-size: 100px"></ion-icon>
   </div>
   <p class="container mt-4">Aquí puedes agregar cuantas veces al día tomas tus medicamentos</p>
 </ion-content>
+
+<div class="d-flex aling-items-center justify-content-center text-center">
+  <ion-item color="success">
+    <ion-label>Frecuencia de Dosis</ion-label>
+    <ion-select [(ngModel)]="selectedFrequency" color="secundary">
+      <ion-select-option value="diario">Diario</ion-select-option>
+      <ion-select-option value="semanal">Semanal</ion-select-option>
+      <ion-select-option value="mensual">Mensual</ion-select-option>
+    </ion-select>
+  </ion-item>
+</div>
+
+<ion-button (click)="showToast()">Agregar Recordatorio</ion-button>
+

@@ -12,7 +12,7 @@ En esta unidad, se agregaron dos nuevos componentes a la aplicación:
 - **`ion-item`:** Utilizado en la página Frecuencia de Dosis para permitir al usuario seleccionar una opción del menú desplegable. El diseño fue personalizado con estilos CSS para ajustarlo al diseño deseado.
 - **`ion-toast`:** Implementado en la misma página para mostrar mensajes emergentes temporales al realizar una acción, como seleccionar una opción. La funcionalidad se configuró utilizando `ToastController` de Ionic.
 
-## Conclusión
+### Conclusión (Parte A) 
 Con esta etapa, la aplicación Dosis Diarias cuenta con dos nuevos componentes (`ion-datetime` y `ion-toast`) que mejoran la experiencia del usuario. Además, se solucionaron problemas de estilo y funcionalidad, logrando un progreso hacia el desarrollo completo de la app.
 
 ### Problemas enfrentados

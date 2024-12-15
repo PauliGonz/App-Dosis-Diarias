@@ -1,6 +1,26 @@
 # Daily Dosis
 
-Daily Dosis es una aplicación móvil diseñada para ayudar a los usuarios a gestionar recordatorios de medicamentos de manera eficiente. Este proyecto forma parte del trabajo de unidad tres de la asignatura Taller de Dispositivos Móviles y se centra en la implementación de una cáscara de navegación basada en los mockups desarrollados previamente durante la fase de diseño y experiencia móvil.
+Daily Dosis es una aplicación móvil diseñada para ayudar a los usuarios a gestionar recordatorios de medicamentos de manera eficiente. Este proyecto forma parte del trabajo de la Unidad 4 de la asignatura Taller de Dispositivos Móviles y se centra en la implementación de la funcionalidad restante de la aplicación, junto con la generación del APK.
+
+## Avances en la Unidad 4 (Parte B)
+### Componentes nuevos implementados en esta etapa
+- **`ion-datetime`:** Selector de fecha y hora para establecer recordatorios con un diseño interactivo de scroll.
+- **`ion-alert`:** Mensaje emergente de confirmación para eliminar un recordatorio.
+
+### Detalles de implementación
+- **`ion-datetime`:** Utilizado en la página "Agregar Recordatorio" para permitir a los usuarios seleccionar la fecha y hora exacta de sus recordatorios. Se implementaron        opciones de formato y se personalizó su tamaño y posición en la pantalla.
+- **`ion-alert`:** Implementado en la misma página para confirmar la eliminación de un recordatorio. Este componente solicita confirmación antes de realizar la acción.
+
+### Problemas enfrentados
+1. **Duplicación de ion-datetime**
+- **Problema:** El componente se mostró dos veces debido a un error en la estructura del HTML.
+  Solución: Se consolidó el diseño en un único ion-datetime, ajustando los estilos y eliminando redundancias.
+2. **Errores de cierre de etiquetas en HTML**
+- **Problema:** La página generaba errores debido a etiquetas mal cerradas o no anidadas correctamente.
+  Solución: Se ajustó la estructura HTML aplicando indentación y validación de cierre de etiquetas.
+
+## Próximo paso
+Generar el APK no firmado para pruebas y distribución en dispositivos Android.
 
 ## Avances en la Unidad 4 (Parte A) 
 ### Componentes nuevos implementados

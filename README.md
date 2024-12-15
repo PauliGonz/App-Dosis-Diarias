@@ -8,6 +8,32 @@ En esta unidad, se agregaron dos nuevos componentes a la aplicación:
 1. **`ion-item`:** Personalizado para seleccionar la frecuencia de las dosis mediante un menú desplegable.
 2. **`ion-toast`:** Mensaje emergente temporal que informa al usuario sobre la acción realizada, como el guardado de un recordatorio.
 
+### Detalles de implementación
+- **`ion-item`:** Utilizado en la página Frecuencia de Dosis para permitir al usuario seleccionar una opción del menú desplegable. El diseño fue personalizado con estilos CSS para ajustarlo al diseño deseado.
+- **`ion-toast`:** Implementado en la misma página para mostrar mensajes emergentes temporales al realizar una acción, como seleccionar una opción. La funcionalidad se configuró utilizando `ToastController` de Ionic.
+
+## Conclusión
+Con esta etapa, la aplicación Dosis Diarias cuenta con dos nuevos componentes (`ion-datetime` y `ion-toast`) que mejoran la experiencia del usuario. Además, se solucionaron problemas de estilo y funcionalidad, logrando un progreso hacia el desarrollo completo de la app.
+
+### Problemas enfrentados
+Durante la implementación de estos componentes, se enfrentaron los siguientes desafíos:
+1. **Error TS2339 en el uso de `ion-select`:**  
+   Solución: Se declaró la propiedad `selectedFrequency` en el archivo TypeScript y se vinculó correctamente con `ngModel`.
+
+2. **Estilo de componentes ocupando todo el ancho de la pantalla:**  
+   Solución: Se personalizaron los estilos con CSS para ajustar el tamaño y agregar márgenes y bordes redondeados.
+
+3. **Fallo al mostrar el Toast:**  
+   Solución: Se importó e inyectó correctamente el `ToastController` en el archivo TypeScript.
+
+### Instrucciones para la instalación y ejecución
+El proceso de instalación no ha cambiado y sigue los mismos pasos:
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/PauliGonz/App-Dosis-Diarias.git
+- Instala las dependencias con el comando npm install 
+- ejecuta el proyecto con el comando ionic serve
+
 ## Características
 - **Menú lateral:** Navegación fluida entre las páginas de la aplicación.
 - **Páginas disponibles:**

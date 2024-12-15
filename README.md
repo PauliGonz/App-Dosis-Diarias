@@ -6,10 +6,12 @@ Daily Dosis es una aplicación móvil diseñada para ayudar a los usuarios a ges
 ### Componentes nuevos implementados en esta etapa
 - **`ion-datetime`:** Selector de fecha y hora para establecer recordatorios con un diseño interactivo de scroll.
 - **`ion-alert`:** Mensaje emergente de confirmación para eliminar un recordatorio.
+- **`ion-modal`:** Ventana emergente para mostrar detalles adicionales sobre los recordatorios.
 
 ### Detalles de implementación
 - **`ion-datetime`:** Utilizado en la página "Agregar Recordatorio" para permitir a los usuarios seleccionar la fecha y hora exacta de sus recordatorios. Se implementaron        opciones de formato y se personalizó su tamaño y posición en la pantalla.
 - **`ion-alert`:** Implementado en la misma página para confirmar la eliminación de un recordatorio. Este componente solicita confirmación antes de realizar la acción.
+- **`ion-modal`:** Utilizado en la página "Agregar Recordatorio" para abrir una ventana emergente que muestra detalles adicionales sobre los recordatorios. 
 
 ### Problemas enfrentados
 1. **Duplicación de ion-datetime**

@@ -2,6 +2,12 @@
 
 Daily Dosis es una aplicación móvil diseñada para ayudar a los usuarios a gestionar recordatorios de medicamentos de manera eficiente. Este proyecto forma parte del trabajo de unidad tres de la asignatura Taller de Dispositivos Móviles y se centra en la implementación de una cáscara de navegación basada en los mockups desarrollados previamente durante la fase de diseño y experiencia móvil.
 
+## Avances en la Unidad 4 (Parte A) 
+### Componentes nuevos implementados
+En esta unidad, se agregaron dos nuevos componentes a la aplicación:
+1. **`ion-item`:** Personalizado para seleccionar la frecuencia de las dosis mediante un menú desplegable.
+2. **`ion-toast`:** Mensaje emergente temporal que informa al usuario sobre la acción realizada, como el guardado de un recordatorio.
+
 ## Características
 - **Menú lateral:** Navegación fluida entre las páginas de la aplicación.
 - **Páginas disponibles:**

@@ -2,6 +2,28 @@
 
 Daily Dosis es una aplicación móvil diseñada para ayudar a los usuarios a gestionar recordatorios de medicamentos de manera eficiente. Este proyecto forma parte del trabajo de la Unidad 4 de la asignatura Taller de Dispositivos Móviles y se centra en la implementación de la funcionalidad restante de la aplicación, junto con la generación del APK.
 
+## Generación del APK
+El archivo APK fue generado utilizando Visual Studio Code.
+El comando utilizado: ./gradlew assembleDebug
+Ruta de APK generado: android/app/build/outputs/apk/debug/app-debug.apk
+
+### Problemas enfrentados
+1. **Configuración del JDK**
+- Se corrigió la ruta de JAVA_HOME para que apunte al JDK 23, asegurando compatibilidad con Gradle y Android Studio.
+- Problema resuelto modificando las variables de entorno y el archivo settings.json en Visual Studio Code.
+
+### Cómo ejecutar el proyecto
+1. **Requisitos previos:**
+- Node.js y Ionic CLI.
+- Android Studio con un JDK compatible (JDK 11 o superior).
+
+### Pasos para compilar y generar el APK:
+1. **Abre una terminal en la carpeta raíz del proyecto.Abre una terminal en la carpeta raíz del proyecto:**
+- Ejecuta los siguientes comandos: 
+- npx cap sync android
+- npx cap open android
+2. **Instala el APK en un dispositivo Android desde la ruta generada.**
+
 ## Avances en la Unidad 4 (Parte B)
 ### Componentes nuevos implementados en esta etapa
 - **`ion-datetime`:** Selector de fecha y hora para establecer recordatorios con un diseño interactivo de scroll.

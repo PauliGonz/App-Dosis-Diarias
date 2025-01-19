@@ -17,8 +17,36 @@
   </div>
 
   <div class="container" >
-    <ion-icon name="search-circle-outline" class="text-light pt-4" style="font-size: 200px"></ion-icon>
+    <ion-icon name="search-circle-outline" class="text-light pt-4" style="font-size: 100px"></ion-icon>
   </div>
     <p class="container mt-4">Aquí puedes buscar por nombre los medicamentos que debes tomar</p>
 </ion-content>
 
+<ion-content class="ion-padding">
+  <div class="search-container">
+    <!-- Campo de entrada para buscar -->
+    <div class="mb-3">
+      <ion-label>Escriba el nombre del medicamento</ion-label>
+    </div>
+    <ion-item>
+      <ion-input [(ngModel)]="ingredient" placeholder="Ej. ibuprofen"></ion-input>
+    </ion-item>
+
+    <!-- Botón de búsqueda -->
+    <ion-button expand="full" (click)="searchDrug()">Buscar</ion-button>
+  </div>
+
+  <!-- Mensaje de error -->
+  <div *ngIf="errorMessage" class="error-message">
+    <p>{{ errorMessage }}</p>
+  </div>
+
+  <!-- Resultados -->
+  <div *ngIf="drugInfo" class="result-container">
+    <h2>Información del Medicamento</h2>
+    <p><strong>Ingrediente Activo:</strong> {{ drugInfo.active_ingredient }}</p>
+    <p><strong>Advertencias:</strong> {{ drugInfo.warnings }}</p>
+    <p><strong>Dosis e Instrucciones:</strong> {{ drugInfo.dosage_and_administration }}</p>
+    <p><strong>Descripción:</strong> {{ drugInfo.description }}</p>
+  </div>
+</ion-content>

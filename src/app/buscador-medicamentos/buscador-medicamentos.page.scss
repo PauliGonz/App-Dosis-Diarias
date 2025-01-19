@@ -1,0 +1,46 @@
+.search-container {
+    margin: 20px auto;
+    max-width: 400px; /* Limita el ancho del contenedor */
+    text-align: center; /* Centra el contenido */
+  }
+  
+  ion-item {
+    --background: #f9f9f9; /* Fondo gris claro */
+    --color: #333333; /* Texto gris oscuro */
+    margin-bottom: 15px; /* Espaciado entre los campos */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para el contenedor */
+  }
+  
+  ion-button {
+    margin-top: 10px;
+    width: auto; /* Ajusta el ancho automáticamente */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    --background: #007bff; /* Fondo azul */
+    --color: #ffffff; /* Texto blanco */
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333333; /* Texto gris oscuro */
+    max-width: 400px; /* Limita el ancho */
+    margin: 20px auto; /* Centra el contenedor */
+  }
+  
+  .result-container h2 {
+    color: #007bff; /* Títulos en azul */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .result-container p {
+    color: #333333; /* Texto en gris oscuro */
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
